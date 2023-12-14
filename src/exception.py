@@ -1,6 +1,6 @@
 import sys
 #exception occurs,sys will get info
-import logging
+from src.logger import logging
 def error_messege_deteails(error,error_detail:sys):
     _,_,exe_tb = error_detail.exc_info()
     #exception of whichline,what error
