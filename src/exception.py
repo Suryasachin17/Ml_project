@@ -19,11 +19,11 @@ class Custum_Exception(Exception):
         return self.error_messege
     
 
-if __name__ ==  "__main__":
+# if __name__ ==  "__main__":
 
-    try:
-        s=1/0
-    except Exception as e:
-        logging.info("not dived")
-        raise Custum_Exception(e,sys)
+#     try:
+#         s=1/0
+#     except Exception as e:
+#         logging.info("not dived")
+#         raise Custum_Exception(e,sys)
 
